@@ -84,6 +84,7 @@ public class FacturaDB {
 		test.insertFactura(Factura.getFactura(r.nextInt(3)));
 		test.displayAll();
 		test.displayInTimePeriod();
+		FacturaDB test2 = new FacturaDB();
 	}
 
 	
